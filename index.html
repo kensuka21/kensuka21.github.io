@@ -9,7 +9,7 @@
   <meta name="description" content="Eric Hasselbring is a Full-Stack Software Developer.">
   <meta name="keywords" content="full-stack, software, developer, create web applications, design websites" />
 
-  <title>Eric Hasselbring</title>
+  <title>Kenji Mukai</title>
 
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -17,12 +17,11 @@
   <!-- WEBSITE THUMBNAIL ICON -->
   <link rel="icon" href="images/icons/smile.png">
 
-  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-
 </head>
-<body>
 
+<body>
   <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
     <div class="container-fluid">
 
@@ -37,55 +36,61 @@
       </div>
 
       <div class="navbar-center" id="name">
-        <h2 class="gray-font">Eric Hasselbring</h2>
+        <h2 class="gray-font">Kenji Mukai</h2>
       </div>
 
       <div class="collapse navbar-collapse" id="nav">
-
         <ul class="nav navbar-nav">
-          <li><a href="#about">About Me <span class="sr-only">(current)</span></a></li>
-
+          <li>
+            <a href="#about">About Me
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects
+              <span class="caret"></span>
+            </a>
             <ul class="dropdown-menu">
-              <li><a href="#checkers">Checkers</a></li>
-              <li><a href="#connected">Connected Investments</a></li>
-              <li><a href="#cli">CLI Emulator</a></li>
+              <li>
+                <a href="#checkers">Checkers</a>
+              </li>
+              <li>
+                <a href="#connected">Connected Investments</a>
+              </li>
+              <li>
+                <a href="#cli">CLI Emulator</a>
+              </li>
             </ul>
           </li>
-
-          <li><a href="#portfolio">Professional</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#blogs">Blogs</a></li>
+          <li>
+            <a href="#portfolio">Professional</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#blogs">Blogs</a>
+          </li>
         </ul>
-
-
-
-        <div class="nav navbar-nav navbar-right bg-cover">
-          <a href="resume/Resume Eric Hasselbring.pdf" class="btn btn-primary" id="resume-button" download>Download Resume</a>
-        </div>
-
-      </div><!-- /.navbar-collapse -->
-
-    </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
   </nav>
-
 
   <header class='cd-fixed-bg cd-bg-1 vertical-center'>
     <div class='container'>
-
       <div class='row row-header'>
         <div class="col-md-6 col-md-offset-3">
-
           <img src="images/pictures/headshot-suit.png" alt="headshot" id="headshot" />
-          <h2 class="white-font" id="banner-name">Eric Hasselbring</h2>
+          <h2 class="white-font" id="banner-name">Kenji Mukai</h2>
           <h3 class="white-font code-source-pro">Full-Stack Software Developer</h3>
-
         </div>
       </div>
     </div>
   </header>
- <div class= "container">
+
+  <div class="container">
     <div class="row-content" id="about">
       <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center gray-font heading-text no-padding">
         <p class="no-padding">Software Developer based in New York City</p>
@@ -95,8 +100,8 @@
       </div>
       <div class="col-sm-12 hidden-xs text-center gray-font">
         <div>
-          <h2 class="heading-text">I am a Software Developer based in New York City. <br/>
-              Experienced in creating web applications and responsive websites.</h2>
+          <h2 class="heading-text">I am a Software Developer based in New York City.
+            <br/> Experienced in creating web applications and responsive websites.</h2>
           <hr>
           <div style="padding-top: 25px;"></div>
           <div id="projects" class="anchor"></div>
@@ -116,9 +121,13 @@
       <div class="col-xs-12 col-md-4 text-center">
         <div class="project-container">
           <div id="checkers" class="anchor"></div>
-          <div class="project-heading"><h3 class="gray-font">Checkers</h3></div>
+          <div class="project-heading">
+            <h3 class="gray-font">Checkers</h3>
+          </div>
           <div class="project-body">
-            <a href="http://react-checkers.herokuapp.com" target="_blank"><img src="images/pictures/checkers.png" alt="checkers" class="project-image"></a>
+            <a href="http://react-checkers.herokuapp.com" target="_blank">
+              <img src="images/pictures/checkers.png" alt="checkers" class="project-image">
+            </a>
             <ul class="project-list">
               <li> Implemented gamelogic with JavaScript </li>
               <li> Designed frontend with React and custom CSS </li>
@@ -131,30 +140,38 @@
 
       <div class="col-xs-12 col-md-4 text-center">
         <div class="project-container">
-            <div id="connected" class="anchor"></div>
-            <div class="project-heading" id="pair"><h3 class="gray-font">Connected Investments</h3></div>
-            <div class="project-body">
-              <a href="https://connected-investing.herokuapp.com" target="_blank"><img src="images/pictures/connected-investing.jpeg" alt="connected-investing" class="project-image-wide"></a>
-              <ul class="project-list">
-                <li> Developed client side application using React and Redux </li>
-                <li> Implemented Semantic UI React to create some frontend components </li>
-                <li> Utilized Ruby on Rails to develop an internal API for our client side application </li>
-              </ul>
-            </div>
+          <div id="connected" class="anchor"></div>
+          <div class="project-heading" id="pair">
+            <h3 class="gray-font">Connected Investments</h3>
+          </div>
+          <div class="project-body">
+            <a href="https://connected-investing.herokuapp.com" target="_blank">
+              <img src="images/pictures/connected-investing.jpeg" alt="connected-investing" class="project-image-wide">
+            </a>
+            <ul class="project-list">
+              <li> Developed client side application using React and Redux </li>
+              <li> Implemented Semantic UI React to create some frontend components </li>
+              <li> Utilized Ruby on Rails to develop an internal API for our client side application </li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <div class="col-xs-12 col-md-4 text-center">
         <div class="project-container">
-            <div id="cli" class="anchor"></div>
-            <div class="project-heading"><h3 class="gray-font">CLI Emulator</h3></div>
-            <div class="project-body">
-              <a href="https://react-cli.herokuapp.com" target="_blank"><img src="images/pictures/CLI-app.png" alt="CLI" class="project-image"></a>
-              <ul class="project-list">
-                <li> Built functionality with JavaScript </li>
-                <li> Used React/ Redux for frontend </li>
-              </ul>
-            </div>
+          <div id="cli" class="anchor"></div>
+          <div class="project-heading">
+            <h3 class="gray-font">CLI Emulator</h3>
+          </div>
+          <div class="project-body">
+            <a href="https://react-cli.herokuapp.com" target="_blank">
+              <img src="images/pictures/CLI-app.png" alt="CLI" class="project-image">
+            </a>
+            <ul class="project-list">
+              <li> Built functionality with JavaScript </li>
+              <li> Used React/ Redux for frontend </li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -166,39 +183,6 @@
     </div>
 
     <div class="row-content">
-      <div class="col-xs-12 text-center">
-        <div id="portfolio" class="anchor"></div>
-        <h2 class="gray-font">Professional Portfolio</h2>
-      </div>
-      <div class="col-xs-12">
-        <div style="padding-top: 25px;"></div>
-      </div>
-
-      <div class="col-xs-12 col-md-4 text-center">
-        <div class="project-container">
-            <div class="project-heading" id="abl"><h3 class="gray-font">Atlantic Bulk Limited</h3></div>
-            <div class="project-body">
-              <a href="http://atlanticbulkltd.com" target="_blank"><img src="images/pictures/ABL.jpeg" alt="ABL" class="project-image-wide"></a>
-              <ul class="project-list">
-                <li> Complete redesign from ground up </li>
-                <li> Custom CSS and Bootstrap for frontend </li>
-              </ul>
-            </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-8">
-        <div class="project-container">
-          <div style="padding-top: 100px;"></div>
-            <div class="project-heading">
-              <h4 class="gray-font">Raphael Boccella</h4>
-              <h5 class="gray-font">Business Development Manager at Atlantic Bulk Limited</h3>
-            </div>
-            <div class="project-body">
-              <p>Having had the pleasure of working with Eric in the past, he was an obvious choice to hire for the redesign and coding of my company's archaic website. His cool demeanor makes him a pleasure to work with, as well as his dedicated work ethic, and eagerness to step outside his comfort zone to learn new techniques at our request. Suffice it to say, in just a short time, we've received a number of compliments on the new look and feel of our website, and what I hope any readers take away from this is that Eric made the process easy. His willingness to work with us directly, or without us, while providing detailed updates made him a true asset and joy to do business with.</p>
-            </div>
-        </div>
-      </div>
-
       <div class="col-xs-12">
         <div style="padding-top: 25px;"></div>
         <hr>
@@ -282,50 +266,32 @@
 
     <div class="row-content text-center">
       <div class="col-xs-12">
-        <div id="blogs" class="anchor"></div>
-        <h2 class="gray-font">Recent Blog Posts</h2>
-      </div>
-      <div class="col-xs-12">
-        <blockquote class="embedly-card" data-card-key="e74a03f700b247b5b25a049e292bf64b" data-card-type="article"><h4><a href="https://medium.com/@ehassey13/react-presentational-components-and-smart-components-explained-114236b12b37">React Presentational Components and Smart Components Explained…</a></h4><p>When I first learned React, I understood the concept of presentational components versus smart components, but I really didn’t understand all the benefits and how you can really clean up your code, plus make testing a breeze. Below you will find some examples of how its implemented...</p></blockquote>
-        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-      </div>
-      <div class="col-xs-12">
-        <blockquote class="embedly-card" data-card-key="e74a03f700b247b5b25a049e292bf64b" data-card-type="article"><h4><a href="https://medium.com/@ehassey13/node-js-and-sockets-io-crash-course-3fb3caff041b#.3xmvo05he">Node.js and Sockets.io Crash Course</a></h4><p>Its time to have some fun with node and set up a chat app using Node.js and sockets.io. If you have a decent grasp on how to use JavaScript this will all seem fairly simple and the future application...</p></blockquote>
-        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-        <div style="padding-top: 25px;"></div>
-        <hr>
+        <div class="social-container">
+          <a href="https://github.com/kensuka21" target="_blank">
+            <img src="images/icons/github.svg" alt="github" class="social-icon">
+          </a>
+        </div>
+        <div class="social-container">
+          <a href="https://twitter.com/kensuka21" target="_blank">
+            <img src="images/icons/twitter.svg" alt="twitter" class="social-icon">
+          </a>
+        </div>
+        <div class="social-container">
+          <a href="https://www.linkedin.com/in/kenji-mukai-206853b3/" target="_blank">
+            <img src="images/icons/linkedin.svg" alt="linkedin" class="social-icon">
+          </a>
+        </div>
+
       </div>
     </div>
 
-  <div class="row-content text-center">
-    <div class="col-xs-12">
-      <div class="social-container">
-        <a href="https://github.com/hassey13" target="_blank"><img src="images/icons/github.svg" alt="github" class="social-icon"></a>
-      </div>
-      <div class="social-container">
-        <a href="https://medium.com/@ehassey13" target="_blank"><img src="images/icons/medium.svg" alt="medium" class="social-icon"></a>
-      </div>
-      <div class="social-container">
-        <a href="https://twitter.com/ehassey13" target="_blank"><img src="images/icons/twitter.svg" alt="twitter" class="social-icon"></a>
-      </div>
-      <div class="social-container">
-        <a href="https://www.linkedin.com/in/eric-hasselbring-0b849033/" target="_blank"><img src="images/icons/linkedin.svg" alt="linkedin" class="social-icon"></a>
-      </div>
-
-    </div>
   </div>
-
-</div>
-
-
-
-
   <!-- END -->
 
   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
-
 </body>
+
 </html>
