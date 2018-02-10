@@ -110,7 +110,7 @@ ul {
 }
 
 .project-image-wide {
-  height: 200px;
+  height: 180px;
   width: 300px;
 }
 
@@ -150,14 +150,16 @@ ul {
 
 .cd-fixed-bg {
 	min-height: 100%;
-  background-size: auto;
+  background-size: contain;
 	/* background-attachment: fixed; */
 	background-position: center center;
 }
 
 .cd-fixed-bg.cd-bg-1 {
   background-image: url('../images/image-bg.jpeg');
-  height: 600px;
+  background-repeat: no-repeat;
+  height: 570px;
+  background-color: #111111;
 }
 
 /*.center-text {
