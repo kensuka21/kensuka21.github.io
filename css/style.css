@@ -114,6 +114,12 @@ ul {
   width: 300px;
 }
 
+.project-image-wide-no-height {
+  margin-top: 50px;
+  margin-bottom: 65px;
+  width: 300px;
+}
+
 .project-list {
   padding-top: 20px;
   text-align: left;
