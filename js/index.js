@@ -1,4 +1,4 @@
-var navShow = false
+var navShow = false;
 
 $(window).scroll(function() {
   if (window.scrollY > 207 && window.innerWidth >= 1200 && !navShow) {
@@ -11,4 +11,4 @@ $(window).scroll(function() {
     $( "#banner-name" ).css("visibility", "visible")
     $( "#name" ).fadeOut( "slow" )
   }
-})
+});
